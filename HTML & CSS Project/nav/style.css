@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: serif, sans-serif;
+	background: radial-gradient(#231, #ddd, #44d, #FFF, pink, hotpink);
+}
+
+header nav .nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.logo span{
+	margin-left: 55%;
+	font-weight: bold;
+	font-size: 20px;
+	border: 2px solid pink;
+	background-color: yellow;
+	color: #44d;
+	border-radius: 5px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.manu span a{
+	font-weight: bold;
+	margin-right: 15px;
+	text-decoration: none;
+	color: #44d;
+}
+
+.manu span a:hover{
+	color: yellow;
+	transition: 0.5s;
+	background-color: hotpink;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+h1 {
+	font-size: 75px;
+	font-weight: bold;
+	margin-top: 15%;
+	margin-left: 20%;
+	letter-spacing: 10px;
+	color: transparent;
+	background-image: url(55329507.png);
+	-webkit-background-clip: text;
+	position: relative;
+}
+
+.but {
+	margin-left: 35%;
+}
+
+.btn{
+	margin-left: 30px;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: hotpink;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 2%;
+	padding-right: 2%;
+	border: 1px solid hotpink;
+	border-radius: 20px;
+}
+.btn:hover{
+	border-radius: 20px;
+	background-color: yellow;
+	color: #44d;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	transition: 0.5s;
+}

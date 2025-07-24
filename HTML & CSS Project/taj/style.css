@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: url(a.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav{
+	height: 25px;
+	background-color: #E9DEED;
+	display: flex;
+	padding: 16px;
+}
+
+nav .logo h1{
+	color: #fff;
+	font-size: 35px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.nav{
+	margin-left: 43%;
+}
+
+.nav a{
+	color: #fff;
+	padding: 25px;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.nav .aa{
+	color: #35BA8C;
+	background-color: #48FFBF;
+	padding: 6px;
+	border-radius: 5px;
+}
+
+.nav a:hover{
+	color: #35BA8C;
+	transition: 0.5s;
+	background-color: #48FFBF;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.container h2{
+	margin-top: 20%;
+	margin-left: 40%;
+	font-size: 35px;
+	font-weight: bold;
+	color: #35BA8C;
+} 
+
+h1{
+	margin-top: 1%;
+	margin-left: 32%;
+	font-size: 40px;
+	font-weight: bold;
+	color: #35BA8C;
+}
+
+h4{
+	margin-top: 1%;
+	margin-left: 38%;
+	font-size: 30px;
+	font-weight: bold;	
+	color: #35BA8C;
+}
+
+.btn{
+	margin-top: 1%;
+	margin-left: 38%;
+}
+
+button{
+	font-size: 20px;
+	margin-left: 10px;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.but{
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+
+.but:hover{
+	background-color: #48ffbf;
+}
+
+.but1{
+	background-color: #48FFBF;
+	border: 1px solid #48FFBF;
+}
+
+.but1:hover {
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+
+button:hover{
+	border-radius: 15px;
+	transition: 0.5s;
+	padding: 15px;
+}

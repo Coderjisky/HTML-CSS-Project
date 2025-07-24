@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+   background: radial-gradient(#E30BD4, #CC86C4, #CC76CA, #B426CC, #CD2CE8, #D82EF5, #F552EA, #E34CD9);
+	}
+
+.f-nav{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	background-color: rgb(252, 155, 171);
+	padding: 16px;
+}
+
+.feature{
+	display: flex;
+}
+
+.feature .app{
+	display: flex;
+	margin-inline: 22px;
+}
+
+.feature .app i{
+	margin-inline: 8px;
+}
+
+.sec-nav{
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+	padding: 11px;
+	background-color: #FF93F5;
+}
+
+.sec-nav ul li img{
+	width: 8%;
+	margin-left: 22px;
+}
+
+.sec-nav ul li a{
+	margin-inline: 22px;
+}
+
+.sec-nav .inputs{
+	display: flex;
+}
+
+.sec-nav .nyka-bar ul li a{
+	text-decoration: none;
+	color: #F5EDFF;
+}
+
+.sec-nav .nyka-bar ul li a:hover{
+	color: #000;
+	background-color: rgb(255, 80, 223);
+	padding: 10px;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+.sec-nav .inputs button{
+	margin-inline: 20px;
+	width: 100px;
+    background-color: rgb(225, 217, 217);
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+}
+
+.sec-nav .inputs input{
+	width: 220px;
+	background-color: rgb(225, 217, 217);
+	border: none;
+	outline: none;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 10px;
+}
+
+.items{
+	background-color: #FBC9FF;
+	height: 25px;
+	padding: 11px;
+}
+
+.items ul li a{
+	text-decoration: none;
+	color: #000;
+	margin-left: 30px;
+	padding: 10px;
+	justify-content: center;
+}
+
+.items button{
+	margin-left: 95px;
+	padding: 5px;
+	width: 100px;
+    background-color: rgb(225, 217, 217);
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+}
+
+.man-img img, .pink img{
+	width: 100%;
+}
+
+.card img, .brand img, .only-nykaa img{
+	
+	margin-left: 4%;
+	border-radius: 25px;
+
+
+}
+.card img{
+	padding-top: 20px;
+}
+
+.pink h2, .only-nykaa h2, .special h2, .beauty h2, .brand h2{
+	text-align: center;
+	font-size: 35px;
+	padding: 22px;
+	color: /*#AD2390*/#991F7F;
+	letter-spacing: 10px;
+
+}
+
+
+.makeup img{
+	margin-left: 2%;
+	border-radius: 30px;
+	padding-top: 20px;
+}
+
+.special img, .beauty img{
+	margin-left: 3.5%;
+	border-radius: 25px;
+}
+
+.beauty img{
+	padding-bottom: 20px;
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	background-color: gray;
+}
+
+.footer .list{
+	flex-direction: column;
+}
+
+.footer ul li{
+	list-style: none;
+	color: #fff;
+	padding: 20px;
+}
+
+.footer ul li a{
+	font-weight: 600;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.footer ul li h2{
+	font-size: 25px;
+	padding: 10px;
+}
